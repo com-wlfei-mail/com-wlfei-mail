@@ -1,0 +1,58 @@
+.wwBanner {
+  background-color: #F9F9F9;
+  box-shadow: 0 -1px 0 0 #DDDDDF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px 13px;
+  z-index: 10;
+}
+
+.wwBanner.wwBanner_high {
+	bottom: 45px;
+}
+
+.wwBanner_icon {
+  float: left;
+  width: 36px;
+  height: 36px;
+  background-image: url('../../images/mobile/wework_promot_banner_logo_2x2e7620.png');
+  background-repeat: no-repeat;
+  background-size: 36px 36px;
+}
+
+.wwBanner_right {
+  overflow: hidden;
+  padding-left: 8px;
+  color: #444444;
+  padding-right: 36px;
+}
+.wwBanner_right_title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.wwBanner_right_detail {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.wwBanner_close {
+  width: 52px;
+  background-image: url('../../images/mobile/wework_promot_banner_close_2x2e7620.png');
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min--moz-device-pixel-ratio: 3), (-o-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3), (min-resolution: 2dppx) {
+  .wwBanner_icon {
+    background-image: url('../../images/mobile/wework_promot_banner_logo_3x2e7620.png');
+  }
+  .wwBanner_close {
+    background-image: url('../../images/mobile/wework_promot_banner_close_3x2e7620.png');
+  }
+}
